@@ -91,6 +91,36 @@
   }
 }
 
+/* ///////newly added styling by Vishnu //////////////////////////////////////////////////////////////////// start*/
+
+
+.kards {
+  max-width: 350px; /* Adjust the max-width to your preference */
+  transition: max-width 0.3s ease-in-out;
+}
+
+.kards.expanded {
+  max-width: 600px; /* Adjust the expanded width as needed */
+}
+
+.kards-body {
+  display: none;
+}
+
+.kards.expanded .kards-body {
+  display: block;
+}
+
+.kards-img-right {
+  float: right;
+  width: 150px; /* Adjust the width of the image as needed */
+  margin-left: 20px; /* Adjust the margin between the text and image as needed */
+}
+
+
+
+/* /end//////newly added styling by Vishnu ////////////////////////////////////////////////////////////////////// */
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
